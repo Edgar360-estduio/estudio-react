@@ -1,0 +1,96 @@
+:root{
+    --accent: rgba(255,255,255,0.9);
+    --nav-bg: rgba(255,255,255,0.35);
+    --nav-text: rgba(30,30,30,0.9);
+    --nav-height: 56px;
+    --max-width: 1200px;
+}
+
+body {
+    background-image: url('..\assets\Imagenes\SESION_IMG_(38).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.header {
+    position: fixed;
+    top: 18px;
+    left: 0;
+    right: 0;
+    padding: 12px 20px;
+    backdrop-filter: blur(4px);
+    z-index: 20;
+}
+
+.header__logo img {
+    max-height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.header__navegacion {
+    width:100%;
+    max-width:var(--max-width);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:6px 20px;
+    height:var(--nav-height);
+    background:var(--nav-bg);
+    border-radius:999px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.06);
+    border:1px solid rgba(255,255,255,0.35);
+}
+
+.header__navegacion a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.header__navegacion a:hover {
+    color: #A2F4FD;
+    transform: scale(1.05);
+}
+
+.header > div {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------- HERO TITLE ---------------- */
+
+.hero-title {
+    text-align: center;
+    margin-top: 160px;
+    color: white;
+    width: 100%;
+}
+
+.hero-title h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 9rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    margin: 0;
+}
+
+.hero-title p {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    margin-top: 15px;
+}
