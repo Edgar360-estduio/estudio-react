@@ -3,7 +3,7 @@ import Header from "./components/HeaderHome";
 import Hero from "./components/Hero";
 
 import Home from "./pages/Home";
-import Servicios from "./pages/Servicios";
+import Servicios from "./pages/Servicio";
 
 
 
@@ -15,7 +15,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/servicios" element={<servicios />} />
+        <Route path="/servicios" element={<Servicios />} />
         
         
       </Routes>
