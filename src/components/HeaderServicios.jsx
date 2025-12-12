@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Imagenes/LOGO_360.png";
+import logo from "../assets/Imagenes/LOGO_360.jpg";
 
 export default function HeaderServicios() {
   return (
