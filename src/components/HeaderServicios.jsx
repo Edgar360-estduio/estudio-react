@@ -2,7 +2,7 @@
  
 import { Link } from "react-router-dom";
 import logo from "../assets/Imagenes/LOGO_360.jpg";
-import "../styles/headerServicios.css";
+import "../styles/globalServicios.css";
 
 export default function HeaderServicios() {
   return (
