@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import logo from "../assets/Imagenes/LOGO_360_tranaparente.png";
+import logo from "../assets/Imagenes/LOGO_360 tranaparente.png";
 
-export default function HeaderHome() {
+export default function Header() {
   return (
     <header className="header">
       <div className="header__container">
@@ -11,11 +10,11 @@ export default function HeaderHome() {
         </div>
 
         <nav className="header__navegacion">
-          <Link to="/">Home</Link>
-          <Link to="/servicios">Servicios</Link>
-          <Link to="/about">About</Link>
-          <Link to="/portfolio">Portafolio</Link>
-          <Link to="/contact">Contact</Link>
+          <a href="#">Home</a>
+          <a href="/Servicios">Servicios</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portafolio</a>
+          <a href="#contact">Contact</a>
         </nav>
 
       </div>

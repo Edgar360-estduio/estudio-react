@@ -1,42 +1,18 @@
 import "./styles/global.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import HeaderHome from "./components/HeaderHome";
-import HeaderServicios from "./components/HeaderServicios";
-
-import Home from "./pages/Home";
-import Servicios from "./pages/Servicios";
-import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
 
-        {/* Página Home */}
-        <Route 
-          path="/" 
-          element={
-            <>
-              <HeaderHome />
-              <Home />
-            </>
-          } 
-        />
-
-        {/* Página Servicios */}
-        <Route 
-          path="/servicios" 
-          element={
-            <>
-              <HeaderServicios />
-              <Servicios />
-            </>
-          } 
-        />
-
-      </Routes>
-      <Footer />
-   </BrowserRouter>
+      <footer>
+        <p>&copy; 2024 Actividad Educativa</p>
+      </footer>
+    </>
   );
 }
