@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import "../styles/global.css";
 import HeaderHome from "../components/HeaderHome";
 import Hero from "../components/Hero";
 
