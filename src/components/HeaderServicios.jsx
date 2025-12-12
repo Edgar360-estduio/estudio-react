@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/Imagenes/LOGO_360.png";
 
 export default function HeaderServicios() {
@@ -11,11 +12,8 @@ export default function HeaderServicios() {
        
         <div className="header__navigation ">
             <nav role="navigation" aria-label="Menú principal">
-                <a href="Home.html">Home</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/servicios">Servicios</Link>
             </nav>
         </div>
         <div className="header__actions"> //-- Icono Carrito (Usa Map en JS) --

@@ -1,9 +1,11 @@
 // src/pages/Servicios.jsx
+import HeaderServicios from "../components/HeaderServicios";
+
 export default function Servicios() {
   return (
-    <div>
-      <h1>Servicios</h1>
-      <p>Esta es la página de servicios</p>
-    </div>
+    <>
+      <HeaderServicios />
+      <h1 className="page-title">Servicios</h1>
+    </>
   );
 }

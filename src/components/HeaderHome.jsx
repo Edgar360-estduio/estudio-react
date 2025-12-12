@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/Imagenes/LOGO_360_tranaparente.png";
 
 export default function HeaderHome() {
@@ -10,11 +11,11 @@ export default function HeaderHome() {
         </div>
 
         <nav className="header__navegacion">
-          <a href="#">Home</a>
-          <a href="/Servicios">Servicios</a>
-          <a href="#about">About</a>
-          <a href="#portfolio">Portafolio</a>
-          <a href="#contact">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/servicios">Servicios</Link>
+          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portafolio</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
 
       </div>
