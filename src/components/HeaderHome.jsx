@@ -1,7 +1,7 @@
-import logo from "../assets/Imagenes/LOGO_360 transparente.png";
+import logo from "../assets/Imagenes/LOGO_360_transparente.png";
 
 
-export default function HeadeHomer() {
+export default function HeaderHome() {
   return (
     <header className="header">
       <div className="header__container">
