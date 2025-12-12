@@ -4,14 +4,14 @@ import "../styles/global.css";
 
 export default function HeaderHome() {
   return (
-    <header className="header">
-      <div className="header__container">
+    <header className="header--home">
+      <div className="header__container--home">
 
-        <div className="header__logo">
-          <img src={logo} alt="Logo 360" className="logo" />
+        <div className="header__logo--home">
+          <img src={logo} alt="Logo 360" className="logo--home" />
         </div>
 
-        <nav className="header__navegacion">
+        <nav className="header__navegacion--home">
           <a href="#">Home</a>
           <a href="/Servicios">Servicios</a>
           <a href="#about">About</a>

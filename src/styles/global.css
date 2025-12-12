@@ -6,7 +6,7 @@
     --max-width: 1200px;
 }
 
-body {
+body-home {
      background-image: url('/Imagenes/SESION_IMG_(38).jpg');
     background-size: cover;
     background-position: center;
@@ -21,7 +21,7 @@ body {
     padding-top: 80px;
 }
 
-.header {
+.header--home {
     position: fixed;
     top: 18px;
     left: 0;
@@ -31,13 +31,13 @@ body {
     z-index: 20;
 }
 
-.header__logo img {
+.header__logo img--home {
     max-height: 50px;
     width: auto;
     object-fit: contain;
 }
 
-.header__navegacion {
+.header__navegacion--home {
     width:100%;
     max-width:var(--max-width);
     display:flex;
@@ -51,7 +51,7 @@ body {
     border:1px solid rgba(255,255,255,0.35);
 }
 
-.header__navegacion a {
+.header__navegacion--home a {
     color: white;
     font-size: 18px;
     text-decoration: none;
@@ -59,26 +59,26 @@ body {
     transition: 0.3s ease;
 }
 
-.header__navegacion a:hover {
+.header__navegacion--home a:hover {
     color: #A2F4FD;
     transform: scale(1.05);
 }
 
-.header > div {
+.header--home > div {
     display: flex;
     justify-content: center;
 }
 
 /* ---------------- HERO TITLE ---------------- */
 
-.hero-title {
+.hero-title--home {
     text-align: center;
     margin-top: 160px;
     color: white;
     width: 100%;
 }
 
-.hero-title h1 {
+.hero-title--home h1 {
     font-family: "Playfair Display", serif;
     font-size: 9rem;
     font-weight: 900;
@@ -87,7 +87,7 @@ body {
     margin: 0;
 }
 
-.hero-title p {
+.hero-title--home p {
     font-size: 2.2rem;
     font-weight: 300;
     color: #ffffff;
