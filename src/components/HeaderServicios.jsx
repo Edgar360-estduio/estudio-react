@@ -16,7 +16,7 @@ export default function HeaderServicios() {
                 <Link to="/servicios">Servicios</Link>
             </nav>
         </div>
-        <div className="header__actions"> //-- Icono Carrito (Usa Map en JS) --
+        <div className="header__actions"> {/* Icono Carrito (Usa Map en JS) --*/}
 
             <button className="action-btn" id="btn-cart">
                 <i className="fas fa-shopping-cart"></i>
