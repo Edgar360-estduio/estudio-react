@@ -1,4 +1,5 @@
 import logo from "../assets/Imagenes/LOGO_360_transparente.png";
+import "../styles/global.css";
 
 
 export default function HeaderHome() {
