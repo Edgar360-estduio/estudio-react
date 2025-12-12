@@ -1,4 +1,4 @@
-import logo from "../assets/Imagenes/
+import logo from "../assets/Imagenes/LOGO_360_transparente.png";
 
 
 export default function Header() {
