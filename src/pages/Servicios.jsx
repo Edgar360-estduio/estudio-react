@@ -1,4 +1,4 @@
-import "../styles/globalServicios.css";
+
 
 import HeaderServicios from "../components/HeaderServicios";
 
