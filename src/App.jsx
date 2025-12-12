@@ -1,9 +1,11 @@
 import "./styles/global.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./components/HeaderHome";
 import Hero from "./components/Hero";
 
 import Home from "./pages/Home";
-import Servicios from "./pages/Servicio";
+import Servicios from "./pages/Servicios";
 
 
 
