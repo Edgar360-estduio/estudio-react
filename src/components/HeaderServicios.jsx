@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Imagenes/LOGO_360.jpg";
+import logo2 from "../assets/Imagenes/LOGO_360.jpg";
 
 export default function HeaderServicios() {
   return (
 <header className="header">
 
         <div className="header__logo">
-            <img src={logo} alt="Logo 360" className="logo" />
+            <img src={logo2} alt="Logo 360" className="logo" />
         </div>
 
        
