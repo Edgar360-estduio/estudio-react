@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import logo2 from "../assets/Imagenes/LOGO_360_tranaparente.png";
+import logo from "../assets/Imagenes/LOGO_360.png";
 
 export default function HeaderServicios() {
   return (
 <header className="header">
 
         <div className="header__logo">
-            <img src={logo2} alt="Logo 360" className="logo" />
+            <img src={logo} alt="Logo 360" className="logo" />
         </div>
 
        
@@ -16,7 +16,7 @@ export default function HeaderServicios() {
                 <Link to="/servicios">Servicios</Link>
             </nav>
         </div>
-        <div className="header__actions"> {/* Icono Carrito (Usa Map en JS) --*/}
+        <div className="header__actions"> //-- Icono Carrito (Usa Map en JS) --
 
             <button className="action-btn" id="btn-cart">
                 <i className="fas fa-shopping-cart"></i>
