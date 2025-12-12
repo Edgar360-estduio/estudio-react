@@ -1,12 +1,9 @@
-import "../styles/globalServicios.css";
-
-import HeaderServicios from "../components/HeaderServicios";
 
 export default function Servicios() {
   return (
-    <>
-      <HeaderServicios />
-      <h1>Página de Servicios</h1>
-    </>
+    <div>
+      <h1>Servicios</h1>
+      <p>La ruta funciona ✅</p>
+    </div>
   );
 }
