@@ -1,4 +1,4 @@
-import logo from "../assets/Imagenes/LOGO_360 tranaparente.png";
+import logo from "../assets/Imagenes/LOGO_360_tranaparente.png";
 
 export default function HeaderHome() {
   return (
