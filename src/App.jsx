@@ -1,30 +1,42 @@
 import "./styles/global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from "./components/HeaderHome";
-import Hero from "./components/Hero";
+import HeaderHome from "./components/HeaderHome";
+import HeaderServicios from "./components/HeaderServicios";
 
 import Home from "./pages/Home";
 import Servicios from "./pages/Servicios";
-
-
-
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-        <BrowserRouter>
-   
-      <Header />
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/servicios" element={<Servicios />} />
-        
-        
-      </Routes>
 
-      <footer>
-        <p>&copy; 2024 Actividad Educativa</p>
-      </footer>
+        {/* Página Home */}
+        <Route 
+          path="/" 
+          element={
+            <>
+              <HeaderHome />
+              <Home />
+            </>
+          } 
+        />
+
+        {/* Página Servicios */}
+        <Route 
+          path="/servicios" 
+          element={
+            <>
+              <HeaderServicios />
+              <Servicios />
+            </>
+          } 
+        />
+
+      </Routes>
+      <Footer />
    </BrowserRouter>
   );
 }
