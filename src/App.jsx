@@ -1,18 +1,15 @@
-import "./styles/global.css";
-import Header from "./components/HeaderHome";
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Servicios from "./pages/Servicios";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-      </main>
-
-      <footer>
-        <p>&copy; 2024 Actividad Educativa</p>
-      </footer>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/servicios" element={<Servicios />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
