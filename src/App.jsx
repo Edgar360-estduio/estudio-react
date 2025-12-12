@@ -11,7 +11,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/servicios" element={<Servicios />} />
       </Routes>
-        <headerHome />
+      
     </BrowserRouter>
   );
 }
